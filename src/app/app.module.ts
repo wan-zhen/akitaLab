@@ -4,13 +4,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AkitaNgDevtools } from '@datorama/akita-ngdevtools';
 import { environment } from '../environments/environment';
-import { TodoComponent } from './todo/todo.component';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    TodoComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
